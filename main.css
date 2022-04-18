@@ -1,0 +1,45 @@
+.example{
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+@font-face {
+    font-family: Syne;
+    src: url(Assets/Syne-VariableFont_wght.ttf);
+    font-family: Viaoda Libre;
+    src: url(Assets/ViaodaLibre-Regular.ttf);
+}
+
+@keyframes example {
+    0%  {background-color: red;}
+    50%  {background-color: yellow;}
+    70%  {background-color: blue;}
+    100% {background-color: green;}
+ }
+ .marginx{
+     margin-left: 40%;
+     margin-right: 40%;
+     font-family: Syne;
+ }
+.bg-1{
+    background-image: url(Assets/bg-1.png);
+}
+.mainSec{
+    height: 475px;
+}
+#htmlWidth{
+    width: 35%;
+    height: 25rem;
+}
+#cssWidth{
+    width: 25%;
+    height: 25rem;
+}
+#pythonWidth{
+    width: 30%;
+    height: 25rem;
+}
+#jsWidth{
+    width: 30%;
+    height: 25rem;
+}
