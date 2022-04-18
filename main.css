@@ -16,30 +16,224 @@
     70%  {background-color: blue;}
     100% {background-color: green;}
  }
- .marginx{
-     margin-left: 40%;
-     margin-right: 40%;
-     font-family: Syne;
- }
-.bg-1{
-    background-image: url(Assets/bg-1.png);
+
+@media (min-width: 350px) {
+    .marginx{
+        text-align: center;
+        font-family: Syne;
+    }
+   .bg-1{
+       background-image: url(Assets/bg-1.png);
+       height: 600px;
+   }
+   #htmlWidth{
+       width: 35%;
+       height: 25rem;
+   }
+   #cssWidth{
+       width: 25%;
+       height: 25rem;
+   }
+   #pythonWidth{
+       width: 30%;
+       height: 25rem;
+   }
+   #jsWidth{
+       width: 30%;
+       height: 25rem;
+   }
+    .container{
+        padding: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #aboutMe1{
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    #aboutMe2{
+        font-size: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    #aboutMe3{
+        font-size: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    #aboutMe4{
+        font-size: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    #aboutMeImg{
+        
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #navbarIcon{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #htmlWidth{
+        width: 35%;
+        height: 12rem;
+    }
+    #cssWidth{
+        width: 25%;
+        height: 12rem;
+    }
+    #pythonWidth{
+        width: 30%;
+        height: 12rem;
+    }
+    #jsWidth{
+        width: 30%;
+        height: 10rem;
+    }
+    #htmlhead{
+        font-size: 20px;
+        color: black;
+    }
+    #htmltext{
+        font-size: 13px
+    }
+    #csshead{
+        font-size: 20px;
+        color: black;
+    }
+    #csstext{
+        font-size: 13px
+    }
+    #pythonhead{
+        font-size: 20px;
+        color: black;
+    }
+    #pythontext{
+        font-size: 13px
+    }
+    #jshead{
+        font-size: 20px;
+        color: black;
+    }
+    #jstext{
+        font-size: 13px
+    }
+    #mailtext{
+        font-size: 14px;
+    }
+    #mailbutton{
+        width: 80px;
+        height: 50px;
+    }
+    #cardsContact{
+        height: 450px;
+    }
 }
-.mainSec{
-    height: 475px;
-}
-#htmlWidth{
-    width: 35%;
-    height: 25rem;
-}
-#cssWidth{
-    width: 25%;
-    height: 25rem;
-}
-#pythonWidth{
-    width: 30%;
-    height: 25rem;
-}
-#jsWidth{
-    width: 30%;
-    height: 25rem;
+
+
+@media (min-width: 1080px) {
+    .marginx{
+        margin-left: 50%;
+        margin-right: 50%;
+        font-family: Syne;
+    }
+   .bg-1{
+       background-image: url(Assets/bg-1.png);
+       height: 500px;
+   }
+   #htmlWidth{
+       width: 35%;
+       height: 25rem;
+   }
+   #cssWidth{
+       width: 25%;
+       height: 25rem;
+   }
+   #pythonWidth{
+       width: 30%;
+       height: 25rem;
+   }
+   #jsWidth{
+       width: 30%;
+       height: 25rem;
+   }
+   #aboutMe1{
+        font-size: 60px;
+        float: left;
+        
+    }
+    #aboutMe2{
+        font-size: 30px;
+        float: left;
+        
+    }
+    #aboutMe3{
+        font-size: 30px;
+        float: left;
+        
+    }
+    #aboutMe4{
+        font-size: 30px;
+        float: left;
+        
+    }
+    #aboutMeImg{  
+        width: 350px; 
+        float: right;
+    }
+    #aboutMeImgItem{
+        float: right;
+        
+    }
+    #navbarIcon{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #htmlhead{
+        font-size: 40px;
+        color: black;
+    }
+    #htmltext{
+        font-size: 25px
+    }
+    #csshead{
+        font-size: 40px;
+        color: black;
+    }
+    #csstext{
+        font-size: 25px
+    }
+    #pythonhead{
+        font-size: 40px;
+        color: black;
+    }
+    #pythontext{
+        font-size: 25px
+    }
+    #jshead{
+        font-size: 40px;
+        color: black;
+    }
+    #jstext{
+        font-size: 25px
+    }
+    #mailtext{
+        font-size: 50px;
+    }
+    #mailbutton{
+        width: 200px;
+        height: 120px;
+        border-radius: 80px;
+    }
+    #cardsContact{
+        height: 200px;
+    }
+   
 }
