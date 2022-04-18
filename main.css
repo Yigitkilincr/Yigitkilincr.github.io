@@ -17,7 +17,7 @@
     100% {background-color: green;}
  }
 
-@media (min-width: 350px) {
+@media (min-width: 300px) {
     .marginx{
         text-align: center;
         font-family: Syne;
